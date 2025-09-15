@@ -10,6 +10,17 @@ optimizer_runs = 800
 via_ir = false
 ffi = true
  
+[profile.ci]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = '0.8.26'
+evm_version = "cancun"
+optimizer_runs = 800
+via_ir = false
+ffi = false
+# Disable ffi for CI environment for security
+
 [rpc_endpoints]
 sepolia = "https://rpc.sepolia.org/"
 op_sepolia = "https://sepolia.optimism.io"

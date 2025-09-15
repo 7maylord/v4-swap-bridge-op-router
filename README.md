@@ -25,7 +25,7 @@ The router integrates with:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/7maylord/v4-swap-bridge-op-router
 cd v4-swap-bridge-op-router
 
 # Install dependencies
